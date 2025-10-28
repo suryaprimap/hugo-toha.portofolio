@@ -21,6 +21,7 @@ buttons:
 projects:
 - name: Customer Segmentation Analysis
   logo: /images/sections/projects/python.svg
+  image: /images/sections/projects/csp.png
   role: Data Analyst
   timeline: "September 2025"
   repo: https://github.com/suryaprimap/Customer-Segmentation-Project # If your project is a public repo on GitHub, then provide this link. it will show star count.
@@ -30,6 +31,7 @@ projects:
 
 - name: Sleep & Lifestyle Clustering for Student Wellness
   logo: /images/sections/projects/python.svg
+  image: /images/sections/projects/slc.png
   role: Data Analyst
   timeline: "July 2024"
   repo: https://github.com/suryaprimap/Sleep-Lifestyle-Analysis
@@ -46,7 +48,7 @@ projects:
   tags: ["academic","web-development","laravel"]
 
 - name: Muvify
-  logo: /images/sections/projects/python.svg
+  logo: /images/sections/projects/python.svg 
   role: Contributor
   timeline: "Oct 2024 - Dec 2024"
   repo: https://github.com/samuelarthurr/Muvify
