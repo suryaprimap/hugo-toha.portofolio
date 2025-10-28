@@ -47,11 +47,11 @@ projects:
   summary: Implemented CRUD on Inventory Management System using Laravel framework.
   tags: ["academic","web-development","laravel"]
 
-# - name: Muvify
-#   logo: /images/sections/projects/python.svg 
-#   role: Contributor
-#   timeline: "Oct 2024 - Dec 2024"
-#   repo: https://github.com/samuelarthurr/Muvify
-#   url: ""
-#   summary: Personalized movie recommendation system that categorizes users based on their viewing preferences, behavior, and ratings data.
-#   tags: ["academic","machine-learning","recommendation-system"]
+- name: Muvify
+  logo: /images/sections/projects/python.svg 
+  role: Contributor
+  timeline: "Oct 2024 - Dec 2024"
+  repo: https://github.com/samuelarthurr/Muvify
+  url: ""
+  summary: Personalized movie recommendation system that categorizes users based on their viewing preferences, behavior, and ratings data.
+  tags: ["academic","machine-learning","recommendation-system"]
