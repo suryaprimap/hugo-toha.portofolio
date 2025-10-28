@@ -6,66 +6,147 @@ section:
   weight: 2
   showOnNavbar: true
   filter: true
-  # Can optionally hide the title in sections
-  # hideTitle: true
 
 # filter buttons
 buttons:
 - name: All
   filter: "all"
-- name: Basic
-  filter: "basic"
-- name: Language
+- name: Languages
   filter: "language"
-- name: Container
-  filter: "container"
-- name: Others
-  filter: "others"
+- name: Web & Dev
+  filter: "web"
+- name: Data & AI
+  filter: "data"
+- name: Tools & Platforms
+  filter: "tools"
+- name: Databases
+  filter: "database"
+- name: UI/UX
+  filter: "uiux"
 
-# Your Skills.
-# Give a summary of you each skill in the summary section.
+# Your Skills
 skills:
-- name: Kubernetes
-  logo: /images/sections/skills/kubernetes.png
-  summary: "Capable of deploying, managing application on Kubernetes. Experienced in writing Kubernetes controllers for CRDs."
-  categories: ["container"]
-  url: "https://kubernetes.io/"
-
-- name: Go Development
+# --- Programming Languages ---
+- name: Python
+  logo: /images/sections/skills/python.svg
+  summary: "Proficient in data analysis and ML using Pandas, NumPy, Scikit-learn. Built data pipelines and predictive models."
+  categories: ["language", "data"]
+- name: R
+  logo: /images/sections/skills/R.png
+  summary: "Used for statistical analysis and data visualization in academic and research projects."
+  categories: ["language", "data"]
+- name: Java
+  logo: /images/sections/skills/java.svg
+  summary: "Intermediate experience in object-oriented programming and application development."
+  categories: ["language"]
+- name: C / C++
+  logo: /images/sections/skills/c++.png
+  summary: "Intermediate knowledge of algorithms, data structures, and competitive programming."
+  categories: ["language"]
+- name: Go
   logo: /images/sections/skills/go.png
-  summary: "Using as the main language for professional development. Capable of writing scalable, testable, and maintainable program."
-  categories: ["basic", "language"]
-  url: "https://golang.org/"
+  summary: "Main language for professional development. Write scalable, testable, and maintainable programs."
+  categories: ["language"]
+- name: JavaScript
+  logo: /images/sections/skills/javascript.svg
+  summary: "Intermediate experience building interactive frontends and REST APIs."
+  categories: ["language", "web"]
+- name: PHP
+  logo: /images/sections/skills/php.svg
+  summary: "Used with Laravel for backend development and database integration."
+  categories: ["language", "web"]
 
-- name: Cloud Computing
-  logo: /images/sections/skills/cloud.png
-  summary: "Worked with most of the major clouds such as GCP, AWS, Azure etc."
-  categories: ["others"]
+# --- Web Development ---
+- name: Laravel
+  logo: /images/sections/skills/laravel.svg
+  summary: "Built MVC applications and RESTful APIs with database integration."
+  categories: ["web"]
+- name: HTML / CSS
+  logo: /images/sections/skills/html-5.svg
+  summary: "Intermediate proficiency in building responsive and semantic web pages."
+  categories: ["web"]
 
-- name: Docker
-  logo: /images/sections/skills/docker.svg
-  summary: "Write most of the programs as dockerized container. Experienced with multi-stage, multi-arch build process."
-  categories: ["container"]
-  url: "https://www.docker.com/"
+# --- Databases ---
+- name: MySQL
+  logo: /images/sections/skills/mysql.svg
+  summary: "Designed and queried relational databases for web applications."
+  categories: ["database"]
+- name: PostgreSQL
+  logo: /images/sections/skills/postgresql.svg
+  summary: "Used in production-grade applications requiring advanced SQL features."
+  categories: ["database"]
+- name: MongoDB
+  logo: /images/sections/skills/mongodb-icon.svg
+  summary: "Basic experience with NoSQL document-based data storage."
+  categories: ["database"]
 
-- name: Prometheus
-  logo: /images/sections/skills/prometheus.png
-  summary: "Capable of setup, configure Prometheus metrics. Experienced with PromQL, AlertManager. Also, experienced with writing metric exporters."
-  categories: ["basic"]
-  url: "https://prometheus.io/"
+# --- Data Analysis & AI ---
+- name: TensorFlow
+  logo: /images/sections/skills/tensorflow.svg
+  summary: "Beginner experience building and training neural networks."
+  categories: ["data"]
+- name: Matplotlib / Seaborn
+  logo: /images/sections/skills/matplotlib-icon.svg
+  summary: "Created static, publication-quality data visualizations in Python."
+  categories: ["data"]
+- name: Power BI
+  logo: /images/sections/skills/microsoft-power-bi.svg
+  summary: "Built interactive dashboards and reports for business insights."
+  categories: ["data"]
+- name: Excel
+  logo: /images/sections/skills/excel.png
+  summary: "Advanced use of Pivot Tables, VLOOKUP, and data cleaning."
+  categories: ["data"]
+- name: Canva
+  logo: /images/sections/skills/canva.png
+  summary: "Designed data-driven infographics and presentation visuals."
+  categories: ["data", "uiux"]
 
+# --- UI/UX ---
+- name: Figma
+  logo: /images/sections/skills/figma.svg
+  summary: "Advanced prototyping, wireframing, and usability testing for user-centered design."
+  categories: ["uiux"]
+
+# --- Tools & Platforms ---
+- name: Git / GitHub
+  logo: /images/sections/skills/git.png
+  summary: "Experienced with Git-based workflows, branching, and collaboration on GitHub."
+  categories: ["tools"]
 - name: Linux
   logo: /images/sections/skills/linux.png
-  summary: "Using as the main operating system. Capable of writing bash/shell scripts."
-  categories: ["others"]
+  summary: "Primary OS for development. Comfortable with shell scripting and CLI tools."
+  categories: ["tools"]
+- name: Jupyter Notebook
+  logo: /images/sections/skills/jupyter.png
+  summary: "Used extensively for data exploration, analysis, and sharing reproducible code."
+  categories: ["tools", "data"]
+- name: Notion
+  logo: /images/sections/skills/notion-icon.svg
+  summary: "Used for project planning, documentation, and team collaboration."
+  categories: ["tools"]
+- name: GNS3
+  logo: /images/sections/skills/gns3.png
+  summary: "Simulated network topologies for learning and testing."
+  categories: ["tools"]
+- name: Docker
+  logo: /images/sections/skills/docker.svg
+  summary: "Write most programs as containerized apps. Experienced with multi-stage, multi-arch builds."
+  categories: ["tools"]
 
-- name: Git
-  logo: /images/sections/skills/git.png
-  summary: "Experienced with git-based development. Mostly, use Github. Also, have experience in working with GitLab."
-  categories: ["basic"]
-  url: "https://git-scm.com/"
-
-- name: C++
-  logo: /images/sections/skills/c++.png
-  summary: "Know basic C/C++ programming. Used for contest programming and problem solving."
-  categories: ["basic", "language"]
+# # --- Cloud & DevOps (from your original list) ---
+#   url: "https://www.docker.com/"
+# - name: Kubernetes
+#   logo: /images/sections/skills/kubernetes.png
+#   summary: "Deployed and managed applications on Kubernetes. Wrote custom controllers for CRDs."
+#   categories: ["tools"]
+#   url: "https://kubernetes.io/"
+# - name: Prometheus
+#   logo: /images/sections/skills/prometheus.png
+#   summary: "Configured monitoring with Prometheus, AlertManager, and custom metric exporters."
+#   categories: ["tools"]
+#   url: "https://prometheus.io/"
+# - name: Cloud Computing
+#   logo: /images/sections/skills/cloud.png
+#   summary: "Hands-on experience with GCP, AWS, and Azure for deploying and managing services."
+#   categories: ["tools"]

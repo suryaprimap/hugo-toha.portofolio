@@ -1,8 +1,5 @@
 baseURL: https://hugo-toha.github.io
 
-languageCode: bn
-title: "John's Blog"
-
 # Use Hugo modules to add theme
 module:
   imports:
@@ -23,15 +20,9 @@ languages:
   en:
     languageCode: en
     languageName: English
-    title: "John's Blog"
+    title: "Surya's Portfolio"
     weight: 1
-  bn:
-    languageCode: bn
-    languageName: বাংলা
-    title: জনের ব্লগ
-    weight: 2
-# default language for the content
-defaultContentLanguage: en
+
 
 
 # Allow raw html in markdown file
@@ -58,14 +49,14 @@ enableEmoji: true
 # Site parameters
 params:
   # Background image of the landing page
-  background: /images/site/background.jpg
+  background: /images/site/1341840.jpeg
 
   # Provide logos for your site. The inverted logo will be used in the initial
   # transparent navbar and the main logo will be used in the non-transparent navbar.
-  logo:
-    main: /images/site/main-logo.png
-    inverted: /images/site/inverted-logo.png
-    favicon: /images/site/favicon.png
+  # logo:
+  #   main: /images/site/main-logo.png
+  #   inverted: /images/site/inverted-logo.png
+  #   favicon: /images/site/favicon.png
 
   # GitHub repo of your site
   gitRepo: https://github.com/hugo-toha/hugo-toha.github.io
@@ -81,8 +72,8 @@ params:
     # [Deprecated] Enable dark theme
     # This is a deprecated setting, but has not been removed to maintain backward compatibility
     # If `theme` is set, the `darkMode` setting will be discarded.
-    # darkMode:
-    #   enable: true
+    darkMode:
+      enable: true
 
     # Configure theme color settings
     theme:
